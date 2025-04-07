@@ -1,17 +1,17 @@
 body { 
-    background: linear-gradient(to right, hsl(26, 26%, 74%) 50%, #c29880 50%); /* แบ่งสี 2 สี */
+    background: linear-gradient(to right, hsl(26, 26%, 74%) 50%, #c29880 50%); 
     color: rgb(0, 0, 0);
     font-family: sans-serif;
-  text-align: left; /* จัดข้อความไปทางซ้าย */
-  padding-left: 20px; /* เพิ่มระยะห่างจากขอบซ้าย */
-  margin: 0; /* เอา margin ที่อาจจะมีอยู่ใน body ออก */
+  text-align: left;
+  padding-left: 20px; 
+  margin: 0; 
   display: flex;
   flex-direction: column;
 
-  align-items: flex-start; /* จัดข้อความให้เริ่มจากซ้าย */
+  align-items: flex-start;
 }
 .name { 
-    margin-top: 20px; /* เพิ่มระยะห่างจากขอบบน */
+    margin-top: 20px; 
     width: 500px;
     font-size: 50px;
     margin-top: 10px;
@@ -23,13 +23,12 @@ body {
 }
 .nickname{
     margin-top: -20px;
-    padding-left: 155px; /* เพิ่มระยะห่างจากขอบซ้าย */
+    padding-left: 155px;
 }
 .a1 {
     margin-top: 100px;
-    padding-left: 155px; /* เพิ่มระยะห่างจากขอบซ้าย */
-}
+    padding-left: 155px;
 .a2 {
     margin-top: 0px;
-    padding-left: 155px; /* เพิ่มระยะห่างจากขอบซ้าย */
+    padding-left: 155px;
 }
