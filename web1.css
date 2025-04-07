@@ -1,0 +1,31 @@
+body { 
+    background-color: rgb(221, 182, 137);
+    color: rgb(102, 65, 34);
+    font-family: sans-serif;
+  text-align: left; /* จัดข้อความไปทางซ้าย */
+  padding-left: 100px; /* เพิ่มระยะห่างจากขอบซ้าย */
+  margin: 0; /* เอา margin ที่อาจจะมีอยู่ใน body ออก */
+  height: 100vh; /* ความสูงของ body เป็น 100% ของหน้าจอ */
+  display: flex;
+  flex-direction: column;
+  margin-top: 250px; /* เพิ่มระยะห่างจากขอบบน */
+  
+  align-items: flex-start; /* จัดข้อความให้เริ่มจากซ้าย */
+}
+.maintag {
+    font-size: 100px;
+}
+.btn {
+    width: 250px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px 16px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+.btn:hover {
+    background-color: rgb(134, 134, 134); 
+}
+
